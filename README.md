@@ -1,27 +1,14 @@
-# Dados
+# Ejercicio de Angular dados
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
+## Tecnologías usadas: Angular, scss, html
+He creado un proyecto Angular llamado dados con un componente llamado dado que se llama en el componente app principal.
+## Descripción: 
+### Inicio de la página en el primer renderizado: 
+![Alt text](image-2.png)
+### Vista de la página al pulsar el botón:
+Al pulsar el botón Pulsar los datos se ejecuta un evento onClick y se calculan números random en función de un límite fijado que es 3 porque tenemos 3 dados. This.isClick es una variable booleana que cuando pulsamos el botón se pone a true y vuelve a ponerse false al terminar la animación con el evento onanimationend; esta variable controla que se ejecute la animación de movimiento del dado siempre que pulsemos el botón.
+Cuando pulsamos el botón se ejecuta la animación y se muestran los tres dados con los números aleatorios calculados.
+![Alt text](image.png)
+![Alt text](image-1.png)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
