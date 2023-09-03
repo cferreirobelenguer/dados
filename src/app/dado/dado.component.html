@@ -1,0 +1,20 @@
+<section class="dado">
+    <div class="dado__img">
+        <div class="dado__img__container">
+            <img [src]="this.image1" [ngClass]="{'dado__move': this.isClick, 'dado__img--image': !this.isClick}" #targetElement>
+            <h5 [ngClass]="{'dado__img--title': this.listNumberRandom[0], 'dado__img--empty': !this.listNumberRandom[0]}">{{this.listNumberRandom[0]}}</h5>
+        </div>
+        <div class="dado__img__container">
+            <img [src]="this.image2" [ngClass]="{'dado__move': this.isClick, 'dado__img--image': !this.isClick}">
+            <h5 [ngClass]="{'dado__img--title': this.listNumberRandom[1], 'dado__img--empty': !this.listNumberRandom[1]}">{{this.listNumberRandom[1]}}</h5>
+        </div>
+        <div class="dado__img__container">   
+            <img [src]="this.image3" [ngClass]="{'dado__move': this.isClick, 'dado__img--image': !this.isClick}">
+            <h5 [ngClass]="{'dado__img--title': this.listNumberRandom[2], 'dado__img--empty': !this.listNumberRandom[2]}">{{this.listNumberRandom[2]}}</h5>
+        </div>
+    </div>
+    <div class="dado__button">
+        <button (click)='handleClick()' class="dado__button--btn">Pulsa los dados</button>
+    </div>
+
+</section>
