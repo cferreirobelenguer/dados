@@ -1,5 +1,5 @@
 # Ejercicio de Angular dados
-Ejercício práctico del módulo del curso de angular del Instituto Europeo de Estudios Empresariales.
+Ejercício práctico del módulo del curso de angular del Instituto Europeo de Estudios Empresariales, NOTA FINAL 10
 ## Tecnologías usadas: Angular, scss, html
 He creado un proyecto Angular llamado dados con un componente llamado dado que se llama en el componente app principal.
 ## Descripción: 
